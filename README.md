@@ -5,7 +5,7 @@
 This repository contains the implementation of **Deterministic Finite-State Transducers (DFST)** designed to execute a specific 3-bit sliding window encryption and decryption algorithm. The projects were developed using the **JFLAP** software framework based on the **DFST.pdf** assignment requirements for the *Theory of Computation* course taught by **Professor Yiannis Refanidis** at the University of Macedonia (PAMAK).
 
 ## 📋 Project Overview
-The system processes a binary sequence and computes an output bit based on the sum of the last three inputs [cite: 25-36]. [cite_start]If the sum is `01` or `11` in binary, the output is `1`; otherwise, if the sum is `00` or `10`, the output is `0`. Decryption is processed inversely from the end to the beginning of the sequence.
+The system processes a binary sequence and computes an output bit based on the sum of the last three inputs. If the sum is `01` or `11` in binary, the output is `1`; otherwise, if the sum is `00` or `10`, the output is `0`. Decryption is processed inversely from the end to the beginning of the sequence.
 
 ## 📂 Repository Contents
 * **Mealy Machines:**
